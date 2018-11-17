@@ -1,0 +1,168 @@
+$purple: #5118d5;
+
+
+body {
+  color: #fff;
+}
+
+
+#nav  {
+  margin-bottom:0;
+  background-color:#5118d5 ;
+  border:none;
+  border-radius:0px;
+  a {
+      color:#fff;
+  }
+
+}
+
+
+.jumbotron {
+  background-color: #7449d7;
+  -webkit-display:flex ;
+  -moz-display:flex ;
+  -ms-display:flex ;
+  -o-display:flex ;
+  display:flex ;
+  flex-flow:column;
+  justify-content:center;
+  align-items: center;
+   h1 {
+     padding-top: 2em;
+     font-size: 3.5em;
+     line-height: 1.2;
+     text-align: center;
+     padding-bottom: 15px;
+     font-weight: 800;
+     // width:433px;
+   }
+   .btn-circle {
+     svg {
+       justify-content: center;
+       align-items: center;
+       font-size:25px;
+     }
+
+     border-radius: 50%;
+     padding:1em;
+
+     width:60px;
+     height:60px;
+   }
+  #create-your-account {
+  display: flex;
+  flex-flow:column;
+  justify-content: center;
+  align-items: center;
+    padding:5em 0 5em 0;
+    background-color: #fff;
+    color:#000;
+    text-align:center;
+    p {
+      width: 55%;
+
+    }
+    button {
+      // font-size:18px;
+      border-radius:10px;
+      font-weight:600;
+      text-transform: uppercase;
+      padding:10px 20px 10px 20px;
+      background-color: lighten($purple, 20%);
+    }
+  }
+  #services {
+    background: #fff;
+    color: gray;
+   >  h3 {
+      text-align:center;
+      border-bottom: 4px solid #efefef;
+
+    }
+    h4 {
+      text-transform: uppercase;
+    }
+     > .row  > {
+       div {
+            margin-bottom:2%;
+            padding-left:0px;
+            border-radius:10px;
+            border: 1px solid gray;
+        h4 {
+          color:#000;
+        }
+        img {
+          margin-top:10px;
+        }
+         @media (min-width: 992px) {
+           width:48%;
+           margin-right:2%;
+
+         }
+
+
+        &:nth-child(2n) {
+          padding-right:10px;
+        }
+
+      }
+
+    }
+  }
+}
+
+#learn-more {
+    -webkit-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    -o-display: flex;
+    display: flex;
+  flex-flow:column;
+  justify-content: center;
+  align-items: center;
+   p {
+     text-transform:uppercase;
+   }
+
+
+  padding-top:7em;
+}
+
+#footer {
+  background-color:#7449d7 ;
+  width: auto;
+}
+
+.btn-default {
+  border:none;
+  color:#fff;
+}
+
+.bg-lightgreen {
+  background-color:lightgreen;
+}
+
+.lightgreen {
+  color:lightgreen;
+}
+
+
+
+@media (min-width: 768px) {
+  .form-inline {
+    .form-group {
+      display: -webkit-flex;
+      display: -ms-flex;
+      -webkit-display: flex;
+      display: flex;
+    }
+    .form-control {
+      flex-grow:2;
+      margin-right:10px;
+      height:45px;
+    }
+  }
+
+
+}
